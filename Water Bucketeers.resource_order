@@ -16,5 +16,9 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"get_color_z","order":3,"path":"scripts/get_color_z/get_color_z.yy",},
+    {"name":"get_perlin_noise_2D","order":1,"path":"scripts/get_perlin_noise_2D/get_perlin_noise_2D.yy",},
+    {"name":"random_seed","order":2,"path":"scripts/random_seed/random_seed.yy",},
+  ],
 }

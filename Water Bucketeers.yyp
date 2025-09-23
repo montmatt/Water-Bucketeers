@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,7 +35,12 @@
   },
   "name":"Water Bucketeers",
   "resources":[
+    {"id":{"name":"obj_generator","path":"objects/obj_generator/obj_generator.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"generate","path":"scripts/generate/generate.yy",},},
+    {"id":{"name":"get_color_z","path":"scripts/get_color_z/get_color_z.yy",},},
+    {"id":{"name":"get_perlin_noise_2D","path":"scripts/get_perlin_noise_2D/get_perlin_noise_2D.yy",},},
+    {"id":{"name":"random_seed","path":"scripts/random_seed/random_seed.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
