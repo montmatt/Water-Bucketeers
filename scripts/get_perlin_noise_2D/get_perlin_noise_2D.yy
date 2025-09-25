@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_perlin_noise_2D",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_perlin_noise_2D",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
