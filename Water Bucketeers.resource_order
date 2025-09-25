@@ -28,6 +28,7 @@
     {"name":"get_color_z","order":3,"path":"scripts/get_color_z/get_color_z.yy",},
     {"name":"get_perlin_noise_2D","order":1,"path":"scripts/get_perlin_noise_2D/get_perlin_noise_2D.yy",},
     {"name":"random_seed","order":2,"path":"scripts/random_seed/random_seed.yy",},
+    {"name":"tileout","order":4,"path":"scripts/tileout/tileout.yy",},
     {"name":"Helicopter","order":8,"path":"sprites/Helicopter/Helicopter.yy",},
     {"name":"house_on_fire","order":10,"path":"sprites/house_on_fire/house_on_fire.yy",},
     {"name":"normal_house","order":9,"path":"sprites/normal_house/normal_house.yy",},
