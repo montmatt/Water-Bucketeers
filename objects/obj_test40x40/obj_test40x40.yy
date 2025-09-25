@@ -6,8 +6,8 @@
   "name":"obj_test40x40",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Test Objs",
+    "path":"folders/Objects/Test Objs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
