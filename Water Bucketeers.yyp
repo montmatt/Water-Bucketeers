@@ -59,6 +59,7 @@
     {"id":{"name":"normal_house","path":"sprites/normal_house/normal_house.yy",},},
     {"id":{"name":"snowy_house","path":"sprites/snowy_house/snowy_house.yy",},},
     {"id":{"name":"snowy_tree","path":"sprites/snowy_tree/snowy_tree.yy",},},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"spr_Test16x16","path":"sprites/spr_Test16x16/spr_Test16x16.yy",},},
     {"id":{"name":"spr_Test24x24","path":"sprites/spr_Test24x24/spr_Test24x24.yy",},},
     {"id":{"name":"spr_Test32x32","path":"sprites/spr_Test32x32/spr_Test32x32.yy",},},
