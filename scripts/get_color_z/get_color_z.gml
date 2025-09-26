@@ -1,7 +1,7 @@
 function get_color_z(zz) {
 	var r = 0, g = 0, b = 0;
-    var water_level = 70;
-    var land_level = 132;
+    var water_level = 60;
+    var land_level = 140;
 
     if (zz < water_level) {
         // Water: deep blue to light blue
