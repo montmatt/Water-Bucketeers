@@ -53,7 +53,6 @@
     {"id":{"name":"get_color_z","path":"scripts/get_color_z/get_color_z.yy",},},
     {"id":{"name":"get_perlin_noise_2D","path":"scripts/get_perlin_noise_2D/get_perlin_noise_2D.yy",},},
     {"id":{"name":"random_seed","path":"scripts/random_seed/random_seed.yy",},},
-    {"id":{"name":"tileout","path":"scripts/tileout/tileout.yy",},},
     {"id":{"name":"Helicopter","path":"sprites/Helicopter/Helicopter.yy",},},
     {"id":{"name":"house_on_fire","path":"sprites/house_on_fire/house_on_fire.yy",},},
     {"id":{"name":"normal_house","path":"sprites/normal_house/normal_house.yy",},},
@@ -73,8 +72,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

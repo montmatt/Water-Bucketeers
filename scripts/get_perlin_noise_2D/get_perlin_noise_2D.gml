@@ -1,5 +1,5 @@
 function get_perlin_noise_2D(xx, yy, range) {
-	var chunk_size = 24;
+	var chunk_size = 9;
 	var noise = 0;
 	
 	while (chunk_size > 0) {

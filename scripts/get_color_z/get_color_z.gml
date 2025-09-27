@@ -1,6 +1,6 @@
 function get_color_z(zz) {
 	var r = 0, g = 0, b = 0;
-    var water_level = 85;
+    var water_level = 70;
     var land_level = 132;
 
     if (zz < water_level) {
