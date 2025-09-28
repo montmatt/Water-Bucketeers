@@ -7,13 +7,24 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_3D082D85","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_7CF0831E","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_3D082D85","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D082D85","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":224.0,},
+        {"$GMRInstance":"v2","%Name":"inst_7CF0831E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CF0831E","objectId":{"name":"oDrawBiomes","path":"objects/oDrawBiomes/oDrawBiomes.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"BiomeTiles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"BiomeTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
+          -11,2,-3,1,-4,2,-22,1,-19,2,-21,1,-22,2,-2,1,1,2,-15,1,-25,2,-4,1,-3,3,-8,1,-8,2,-6,1,1,2,-5,1,5,2,1,
+          2,1,2,-3,1,-6,3,-6,1,-8,2,-16,1,3,2,1,1,-7,3,-6,1,-8,2,-14,1,-3,2,-2,1,-7,3,-6,1,-8,2,-11,1,-5,2,-3,
+          1,-7,3,-6,1,-7,2,-11,1,-4,2,-4,1,-8,3,-3,1,-2,2,1,1,-7,2,-11,1,-3,2,-5,1,-8,3,-3,1,-9,2,1,1,-4,2,-6,
+          1,-4,2,-5,1,-8,3,-2,1,-10,2,3,1,2,2,-8,1,-3,2,-8,1,-6,3,1,1,-14,2,2,1,2,-6,1,-3,2,-9,1,-4,3,-2,1,-13,
+          2,-2,1,1,2,-6,1,1,2,-11,1,-3,3,-3,1,-16,2,-23,1,-13,2,-26,1,-14,2,-25,1,-14,2,-19,1,-2,4,6,1,4,1,1,4,
+          1,-13,2,-18,1,-10,4,-7,2,-3,1,-2,2,-7,1,-2,4,-2,1,1,4,-3,1,-15,4,-6,2,-9,1,-25,4,-4,2,-9,1,-27,4,-4,
+          2,-9,1,-28,4,-3,2,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TestTileSet","path":"tilesets/TestTileSet/TestTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"tree","path":"sprites/tree/tree.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Room2",
   "parent":{
@@ -31,7 +42,7 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":480,
+    "Height":368,
     "inheritRoomSettings":false,
     "persistent":false,
     "Width":640,
