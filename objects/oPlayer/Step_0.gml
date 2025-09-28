@@ -15,5 +15,4 @@ if(mx != 0 || my != 0){
 	x += mx * move_speed;
 	y += my * move_speed;
 }
-
-show_debug_message(string(mx) + ", " + string(my));
+//show_debug_message(string(mx) + ", " + string(my));
