@@ -4,7 +4,7 @@ The purpose of of this project is for our own educational purposes only and not 
 <h3 id="features">Overview</h3>
 
 ------
-This project explores the use of procedural generation for a 2D game concept about extinguishing houses on fire. Currently, the players controls a helicopter with a bucket,
+This project explores the use of procedural generation for a 2D game concept about extinguishing houses on fire. Currently, the player controls a helicopter with a bucket,
 and random terrain with different biomes is generated each time the game runs. An aerial view allows the player to see the game objects.
 Future implementation would have the player control the helicopter to collect water with their bucket, to extinguish those random fires while navigating the various biomes.
 
