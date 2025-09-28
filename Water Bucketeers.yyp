@@ -68,6 +68,7 @@
     {"id":{"name":"spr_Test64x64","path":"sprites/spr_Test64x64/spr_Test64x64.yy",},},
     {"id":{"name":"spr_Test8x8","path":"sprites/spr_Test8x8/spr_Test8x8.yy",},},
     {"id":{"name":"tree","path":"sprites/tree/tree.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
