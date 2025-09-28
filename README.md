@@ -8,7 +8,7 @@ This project explores the use of procedural generation for a 2D game concept abo
 and random terrain with different biomes is generated each time the game runs. An aerial view allows the player to see the game objects.
 Future implementation would have the player control the helicopter to collect water with their bucket, to extinguish those random fires while navigating the various biomes.
 
-The game makes us of Perlin Noise to generate the terrain, along with a custom algorithm to randomly place the houses, to produce unique yet recognizable landscapes for each run.
+The game makes use of Perlin Noise to generate the terrain, along with a custom algorithm to randomly place the houses, to produce unique yet recognizable landscapes for each run.
 For art, we have utilized GameMaker's built-in art tools to create the sprites and objects.
 
 <h3 id="features">Group Members</h3>
