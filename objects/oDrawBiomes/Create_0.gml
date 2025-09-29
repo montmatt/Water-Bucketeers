@@ -55,10 +55,6 @@ array_sort(house_spawn_list,true);
 
 
 for(var i = 0; i < random_house_num; i++){
-	array_push(house_spawn_list, irandom_range(0, totalValidHouse));
-}
-
-for(var i = 0; i < random_house_num; i++){
 	var currentValidHouse = 0;
 	var found = false;
 	for(var xx = 0; xx < array_length(a_grid) && !found; xx++){
