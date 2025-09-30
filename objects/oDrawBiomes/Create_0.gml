@@ -49,7 +49,7 @@ for(var xx = 0; xx < array_length(a_grid); xx++){
 }
 
 for(var i = 0; i < random_house_num; i++){
-	array_push(house_spawn_list, irandom_range(0, totalValidHouse));
+	array_push(house_spawn_list, irandom_range(0, totalValidHouse - 1));
 }
 
 array_sort(house_spawn_list,true);
