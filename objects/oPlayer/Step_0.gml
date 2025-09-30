@@ -16,3 +16,7 @@ if(mx != 0 || my != 0){
 	y += my * move_speed;
 }
 //show_debug_message(string(mx) + ", " + string(my));
+
+if (is_parent){
+	switchSprite();
+}

@@ -10,6 +10,7 @@ house_spawn_list = []
 var house_range = house_num / 5;
 
 random_house_num = irandom_range(floor(house_num - house_range), ceil(house_num + house_range));
+SetHouse(random_house_num);
 
 for(var xx = 0; xx < hcells; xx++){
 	o_grid[xx] = array_create(vcells, 0);
