@@ -1,12 +1,35 @@
-if(keyboard_check_pressed(vk_space)){
-	var hits = ds_list_create();
-	    show_debug_message("SPACE handled by: " + string(object_get_name(object_index)) 
-                       + " id=" + string(id));
+// Inherit the parent event
+event_inherited();
 
-	var count = instance_place_list(oPlayerInteract.x, oPlayerInteract.y,oHouse, hits, true);
-	
-	if(count > 0) instance_destroy(hits[| 0]);
-	
-	ds_list_destroy(hits);
-	
+var found = false;
+var collisionList = []
+
+array_push(collisionList, tilemap_get_at_pixel(map_id,x + ceil(h / 2), y + ceil(h / 2)));
+array_push(collisionList, tilemap_get_at_pixel(map_id,x + floor(h / 2), y + floor(h / 2)));
+
+for(var i = 0; i < array_length(collisionList); i++){
+		if(collisionList[i] == 4){
+			is_burning = true;
+			found = true;
+			break;
+		}
+}
+
+if(!found){
+	is_burning = false;
+	timer = 3 * room_speed;
+}
+
+
+if (timer > 0 && is_burning) {
+    timer--;
+    if (timer <= 0) {
+        show_debug_message("Timer finished!");
+		ChangeCharge(1);
+		timer = 3 * room_speed;
+    }
+}
+
+if(GetCharge() <= 0){
+	timer = 3 * room_speed;
 }
