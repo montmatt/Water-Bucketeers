@@ -6,7 +6,7 @@ if(GetCharge() > 0){
 	if(count > 0) {
 		instance_destroy(hits[| 0]);
 		ChangeHouse("1");
-		ChangeCharge("1");
+		if(!is_frozen) ChangeCharge("1");
 	} else{
 		checkWater();
 	}
