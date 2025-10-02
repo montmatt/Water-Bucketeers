@@ -1,21 +1,27 @@
+randomize();
+seed = round(random_range(1000000, 10000000));
+
 var lay_id = layer_get_id("BiomeTiles");
 var map_id = layer_tilemap_get_id(lay_id);
 
 hcells = room_width / 16;
 vcells = room_height / 16;
 
-o_grid = array_create(hcells, 0);
+// there is a terrain array: a_grid
+
+a_grid = array_create(hcells, 0);
+o_grid = array_create(hcells, 0); // object array
 house_spawn_list = []
 
 var house_range = house_num / 5;
 
 random_house_num = irandom_range(floor(house_num - house_range), ceil(house_num + house_range));
 
-for(var xx = 0; xx < hcells; xx++){
+for(var xx = 0; xx < hcells; xx++) { // preparing 2D array that keeps track of all objects
 	o_grid[xx] = array_create(vcells, 0);
 }
 
-for(var yy = 0; yy < vcells; yy++){
+for(var yy = 0; yy < vcells; yy++) { // assigns the biome using the 2D tile arrat
 	for(var xx = 0; xx < hcells; xx++){
 		
 		tile = tilemap_get(map_id, xx, yy);
@@ -47,14 +53,14 @@ for(var xx = 0; xx < array_length(a_grid); xx++){
 	}
 }
 
-for(var i = 0; i < random_house_num; i++){
+for(var i = 0; i < random_house_num; i++){ // creates an array of all house spots
 	array_push(house_spawn_list, irandom_range(0, totalValidHouse));
 }
 
-array_sort(house_spawn_list,true);
+array_sort(house_spawn_list,true); // optimizes searching
 
 
-for(var i = 0; i < random_house_num; i++){
+for(var i = 0; i < random_house_num; i++){ // searches those tiles and places house
 	var currentValidHouse = 0;
 	var found = false;
 	for(var xx = 0; xx < array_length(a_grid) && !found; xx++){
