@@ -38,6 +38,7 @@
   },
   "name":"Water Bucketeers",
   "resources":[
+    {"id":{"name":"f_debug","path":"fonts/f_debug/f_debug.yy",},},
     {"id":{"name":"obj_generator","path":"objects/obj_generator/obj_generator.yy",},},
     {"id":{"name":"obj_test16x16","path":"objects/obj_test16x16/obj_test16x16.yy",},},
     {"id":{"name":"obj_test24x24","path":"objects/obj_test24x24/obj_test24x24.yy",},},

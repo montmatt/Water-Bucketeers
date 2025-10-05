@@ -1,7 +1,4 @@
-// --- Draw GUI Event for obj_generator ---
-// This is a DEBUG tool. You can remove it when you are done.
 
-// Set font properties for drawing the text
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_font(f_debug); // Make sure you have a small font named f_debug, or use another font
