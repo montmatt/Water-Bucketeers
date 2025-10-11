@@ -4,4 +4,7 @@ h = sprite_height
 w = sprite_width
 is_parent = false; 
 is_burning = false;
-timer = 3 * room_speed;
+is_frozen = false;
+timerFire = initial_fire_timer * room_speed;
+timerSnow = initial_snow_timer * room_speed;
+
